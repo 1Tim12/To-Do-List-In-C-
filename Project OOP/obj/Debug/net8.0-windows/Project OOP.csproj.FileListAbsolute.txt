@@ -1,0 +1,25 @@
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP_MarkupCompile.cache
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP_MarkupCompile.lref
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\bin\Debug\net8.0-windows\Project OOP.exe
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\bin\Debug\net8.0-windows\Project OOP.deps.json
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\bin\Debug\net8.0-windows\Project OOP.runtimeconfig.json
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\bin\Debug\net8.0-windows\Project OOP.dll
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\bin\Debug\net8.0-windows\Project OOP.pdb
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\AddItemWindow.g.cs
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\AddItemWindow.baml
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.g.resources
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.AssemblyInfoInputs.cache
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.AssemblyInfo.cs
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.csproj.CoreCompileInputs.cache
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.sourcelink.json
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.dll
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\refint\Project OOP.dll
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.pdb
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.genruntimeconfig.cache
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\ref\Project OOP.dll
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\ItemPage.g.cs
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\ItemPage.baml

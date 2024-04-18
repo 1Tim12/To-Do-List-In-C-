@@ -1,0 +1,16 @@
+﻿<Window x:Class="Project_OOP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_OOP"
+        mc:Ignorable="d"
+        Title="To-Do list" SizeToContent="WidthAndHeight">
+    <Grid Background="#F0F0F0">
+        <StackPanel>
+            <TextBlock Text="Welkom bij u ToDoList!" FontSize="24" FontWeight="Bold"/>
+            <Button Content="Add New Item" Name="btnAddItem" Width="150" Height="40" FontSize="14" Background="#4CAF50" Foreground="White" FontWeight="Bold" Click="btnAddItem_Click"/>
+            <Button Content="Continue" x:Name="btnContinue" Width="150" Height="40" FontSize="14" Background="#2196F3" Foreground="White" FontWeight="Bold" Click="btnContinue_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
