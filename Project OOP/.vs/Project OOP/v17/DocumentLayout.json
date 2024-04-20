@@ -15,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:additemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\dataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:dataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\additemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:additemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,6 +47,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataItem.cs",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DataItem.cs",
+              "RelativeDocumentMoniker": "DataItem.cs",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DataItem.cs",
+              "RelativeToolTip": "DataItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:54:02.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,7 +81,7 @@
               "RelativeDocumentMoniker": "ItemPage.xaml.cs",
               "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml.cs",
               "RelativeToolTip": "ItemPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAxAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T19:40:00.14Z",
               "EditorCaption": ""
@@ -89,32 +106,31 @@
               "RelativeDocumentMoniker": "AddItemWindow.xaml.cs",
               "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml.cs",
               "RelativeToolTip": "AddItemWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwFAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T19:39:38.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T18:13:05.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T18:13:05.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T18:13:03.873Z",
               "EditorCaption": ""

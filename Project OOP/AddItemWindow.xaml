@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:Project_OOP"
         mc:Ignorable="d"
         Title="AddItemWindow" Height="450" Width="800">
-    <Grid>
+    <StackPanel>
+        <Label Content="Geefde naam van je Item"/>
+        <TextBox x:Name="tbxName"/>
+        <Label Content="Geef de datum van je item"/>
+        <TextBox x:Name="tbxDate"/>
         <Button x:Name="btnTerug" Content="Keer terug" Click="btnTerug_Click"/>
-    </Grid>
+        <Button x:Name="btnCreateItem" Content="Create Item" Click="btnCreateItem_Click"/>
+    </StackPanel>
 </Window>

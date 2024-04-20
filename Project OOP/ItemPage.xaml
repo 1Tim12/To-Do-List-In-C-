@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="ItemPage" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnTerug" Content="Keer terug" Click="btnTerug_Click"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Content="Datum:"/>
+        <TextBlock x:Name="tbxDate" Grid.Row="0" Margin="70,0,0,0"/>
+        <Label Content="Naam:" Grid.Row="1"/>
+        <TextBlock x:Name="tbxName" Grid.Row="1" Margin="70,0,0,0"/>
+        <Button Content="Laad van JSON" Name="LoadJson" Grid.Row="2" Click="LoadJson_Click" Margin="0,10,0,0"/>
     </Grid>
 </Window>

@@ -23,3 +23,6 @@ C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0
 C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\ref\Project OOP.dll
 C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\ItemPage.g.cs
 C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\ItemPage.baml
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project OOP.csproj.AssemblyReference.cache
+C:\Users\timde\OneDrive\Documenten\To-Do-list-in-C-\Project OOP\obj\Debug\net8.0-windows\Project .1F9AE769.Up2Date
