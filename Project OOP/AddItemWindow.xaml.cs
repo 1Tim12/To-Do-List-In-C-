@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using System.IO;
 using Newtonsoft.Json;
 using System.Globalization;
+using System.Xml.Linq;
 
 namespace Project_OOP
 {
@@ -22,6 +23,9 @@ namespace Project_OOP
     /// </summary>
     public partial class AddItemWindow : Window
     {
+        public string _Date;
+        public string _Name;
+        public string _Data;
         public AddItemWindow()
         {
             InitializeComponent();
@@ -35,49 +39,81 @@ namespace Project_OOP
 
         private void btnCreateItem_Click(object sender, RoutedEventArgs e)
         {
-            // Controleer of de tekstvakken leeg zijn
-            if (string.IsNullOrWhiteSpace(tbxDate.Text) || string.IsNullOrWhiteSpace(tbxName.Text))
-            {
-                MessageBox.Show("Voer een datum en een naam in.");
-                return;
-            }
+            // Bestandsnaam en pad waar de JSON naar toe geschreven moet worden
+            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data3.json";
 
-            DataItem dataItem = null; // Declareren buiten het try-blok ander bestaat het zogezegd niet
+            // Te schrijven data
+            var newData = new
+            {
+                Name = tbxName.Text,
+                Date = tbxDate.Text
+            };
 
             try
             {
-                DateTime date;
-                if (!DateTime.TryParseExact(tbxDate.Text, "d/M/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date))
+                // Controleren of het bestand bestaat
+                if (File.Exists(jsonFilePath))
                 {
-                    MessageBox.Show("Ongeldige datum. Voer een datum in het formaat dd/MM/jjjj in.");
-                    return;
-                }
+                    // JSON-bestand lezen en bestaande gegevens ophalen
+                    var existingData = JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(jsonFilePath));
 
-                // dtatItem gegevens geven binnen try and catch, crash voorkomen
-                dataItem = new DataItem
+                    // Controleer of er al gegevens zijn
+                    if (existingData != null)
+                    {
+                        // Voeg de nieuwe data toe aan de bestaande data
+                        var mergedData = new
+                        {
+                            ExistingData = existingData,
+                            NewData = newData
+                        };
+
+                        if (tbxDate.Text != string.Empty && tbxName.Text != string.Empty)
+                        {
+                            // Serializeer de gecombineerde data naar JSON
+                            string json = JsonConvert.SerializeObject(mergedData, Newtonsoft.Json.Formatting.Indented);
+
+                            // Schrijf de JSON naar het bestand
+                            File.WriteAllText(jsonFilePath, json);
+                        }
+
+                        else
+                            MessageBox.Show("Geef een naam en een datum");
+
+                        MessageBox.Show("Gegevens geschreven");
+                    }
+                }
+                else
                 {
-                    Date = date,
-                    Name = tbxName.Text
-                };
+                    // Als het bestand niet bestaat, schrijf de nieuwe data naar een nieuw bestand
+                    string json = JsonConvert.SerializeObject(newData, Newtonsoft.Json.Formatting.Indented);
+                    File.WriteAllText(jsonFilePath, json);
+
+                    MessageBox.Show("JSON-bestand aangemaakt met de nieuwe gegevens.");
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
             }
+        }
 
-            // Converteer het object naar JSON
-            string json = JsonConvert.SerializeObject(dataItem);
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data3.json"; //Waar het JSON bestant moet staan
 
-            try
-            {
-                // Schrijf de JSON naar een bestand
-                File.WriteAllText(@"C:\Users\timde\OneDrive\Bureaublad\data2.json", json);
-                MessageBox.Show("Gegevens succesvol naar JSON-bestand geschreven.");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Er is een fout opgetreden bij het schrijven naar het JSON-bestand: {ex.Message}");
-            }
+            //try
+            //{
+            //    string json = File.ReadAllText(jsonFilePath);
+            //    DataItem dataItem = JsonConvert.DeserializeObject<DataItem>(json); //deserialiseren  van JSON bestand
+
+            //    // Toon de gegevens in de UI
+            //    _Date = $"Datum: {dataItem.Date}";
+            //    _Name = $"Naam: {dataItem.Name}";
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
+            //}
         }
     }
 }

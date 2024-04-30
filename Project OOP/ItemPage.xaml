@@ -5,17 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project_OOP"
         mc:Ignorable="d"
-        Title="ItemPage" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Label Content="Datum:"/>
-        <TextBlock x:Name="tbxDate" Grid.Row="0" Margin="70,0,0,0"/>
-        <Label Content="Naam:" Grid.Row="1"/>
-        <TextBlock x:Name="tbxName" Grid.Row="1" Margin="70,0,0,0"/>
-        <Button Content="Laad van JSON" Name="LoadJson" Grid.Row="2" Click="LoadJson_Click" Margin="0,10,0,0"/>
-    </Grid>
+        ResizeMode="NoResize"
+        Title="ItemPage" SizeToContent="WidthAndHeight" Width="250">
+    <StackPanel>
+        <ListBox x:Name="ListBoxData" Grid.Row="2" SelectionChanged="ListBoxData_SelectionChanged" SelectionMode="Single"/>
+        <Button Content="Laad de items in" Name="LoadJson" Grid.Row="3" Click="LoadJson_Click" Margin="0,10,0,0"/>
+    </StackPanel>
 </Window>

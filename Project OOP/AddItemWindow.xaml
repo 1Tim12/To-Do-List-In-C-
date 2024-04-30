@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project_OOP"
         mc:Ignorable="d"
-        Title="AddItemWindow" Height="450" Width="800">
+        ResizeMode="NoResize"
+        Loaded="Window_Loaded"
+        Title="AddItemWindow" SizeToContent="Height" Width="250">
     <StackPanel>
-        <Label Content="Geefde naam van je Item"/>
+        <Label Content="Geef de naam van je item"/>
         <TextBox x:Name="tbxName"/>
         <Label Content="Geef de datum van je item"/>
         <TextBox x:Name="tbxDate"/>

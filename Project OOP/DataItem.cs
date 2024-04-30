@@ -10,5 +10,10 @@ namespace Project_OOP
     {
         public DateTime Date { get; set; }
         public string Name { get; set; }
+
+        public override string ToString()
+        {
+            return $"Date: {Date}, Name: {Name}";
+        }
     }
 }

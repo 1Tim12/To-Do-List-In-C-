@@ -29,26 +29,68 @@ namespace Project_OOP
         private void btnTerug_Click(object sender, RoutedEventArgs e)
         {
             DialogResult = true;
-            Close(); // Sluit het huidige venster
+            Close();
         }
 
         private void LoadJson_Click(object sender, RoutedEventArgs e)
         {
-            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data2.json"; //Waar het JSON bestant moet staan
+            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data3.json"; // Pad naar JSON-bestand
 
             try
             {
+                if (!File.Exists(jsonFilePath))
+                {
+                    MessageBox.Show($"Het bestand {jsonFilePath} bestaat niet.");
+                    return;
+                }
                 string json = File.ReadAllText(jsonFilePath);
-                DataItem dataItem = JsonConvert.DeserializeObject<DataItem>(json); //deserialiseren  van JSON bestand
 
-                // Toon de gegevens in de UI
-                tbxDate.Text = $"Datum: {dataItem.Date}";
-                tbxName.Text = $"Naam: {dataItem.Name}";
+                // Controleer of de JSON-gegevens een array zijn
+                if (!json.Trim().StartsWith("["))
+                {
+                    json = "[" + json + "]";
+                }
+
+                // Deserialiseer de JSON naar een lijst van Root-objecten
+                List<Root> root = JsonConvert.DeserializeObject<List<Root>>(json);
+
+                // Maak een lijst om de DataItems op te slaan
+                List<DataItem> dataItems = new List<DataItem>();
+
+                // Voeg de DataItems toe aan de lijst
+                foreach (var rootItem in root)
+                {
+                    if (rootItem.existingData?.existingData != null)
+                    {
+                        dataItems.Add(rootItem.existingData.existingData);
+                    }
+                    if (rootItem.existingData?.NewData != null)
+                    {
+                        dataItems.Add(rootItem.existingData.NewData);
+                    }
+                    if (rootItem.NewData != null)
+                    {
+                        dataItems.Add(rootItem.NewData);
+                    }
+                }
+
+                // Voeg de gegevens toe aan de ListBox
+                ListBoxData.ItemsSource = dataItems;
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
             }
+        }
+
+        private void ListBoxData_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SharedData.SelectedDataItem = (DataItem)ListBoxData.SelectedItem;
+
+            ItemAanpassen itemAanpassen = new ItemAanpassen();
+            itemAanpassen.ShowDialog();
+            DialogResult = true;
+            Close();
         }
     }
 }
