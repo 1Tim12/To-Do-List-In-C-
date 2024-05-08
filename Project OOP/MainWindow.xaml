@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         ResizeMode="NoResize"
         Title="To-Do list" SizeToContent="WidthAndHeight">
+
     <Grid Background="#F0F0F0">
         <StackPanel>
-            <TextBlock Text="Welkom bij u ToDoList!" FontSize="24" FontWeight="Bold"/>
-            <Button Content="Add New Item" Name="btnAddItem" Width="150" Height="40" FontSize="14" Background="#4CAF50" Foreground="White" FontWeight="Bold" Click="btnAddItem_Click"/>
-            <Button Content="Continue" x:Name="btnContinue" Width="150" Height="40" FontSize="14" Background="#2196F3" Foreground="White" FontWeight="Bold" Click="btnContinue_Click"/>
+            <TextBlock Text="Welkom bij u ToDoList!" FontSize="24" FontWeight="Bold" Margin="5"/>
+            <Button Content="Add New Item" Name="btnAddItem" Width="150" Height="40" FontSize="14" Background="#4CAF50" Foreground="White" FontWeight="Bold" Click="btnAddItem_Click" Margin="5"/>
+            <Button Content="Continue" x:Name="btnContinue" Width="150" Height="40" FontSize="14" Background="#2196F3" Foreground="White" FontWeight="Bold" Click="btnContinue_Click" Margin="5"/>
         </StackPanel>
     </Grid>
 </Window>

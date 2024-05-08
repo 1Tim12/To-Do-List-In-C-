@@ -9,11 +9,11 @@
         Loaded="Window_Loaded"
         Title="AddItemWindow" SizeToContent="Height" Width="250">
     <StackPanel>
-        <Label Content="Geef de naam van je item"/>
-        <TextBox x:Name="tbxName"/>
-        <Label Content="Geef de datum van je item"/>
-        <TextBox x:Name="tbxDate"/>
-        <Button x:Name="btnTerug" Content="Keer terug" Click="btnTerug_Click"/>
-        <Button x:Name="btnCreateItem" Content="Create Item" Click="btnCreateItem_Click"/>
+        <Label Content="Geef de naam van je item" Margin="5"/>
+        <TextBox x:Name="tbxName" Margin="5"/>
+        <Label Content="Geef de datum van je item" Margin="5"/>
+        <TextBox x:Name="tbxDate" Margin="5"/>
+        <Button x:Name="btnTerug" Content="Keer terug" Click="btnTerug_Click" Margin="5"/>
+        <Button x:Name="btnCreateItem" Content="Create Item" Click="btnCreateItem_Click" Margin="5"/>
     </StackPanel>
 </Window>

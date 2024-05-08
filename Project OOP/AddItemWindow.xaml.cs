@@ -40,7 +40,7 @@ namespace Project_OOP
         private void btnCreateItem_Click(object sender, RoutedEventArgs e)
         {
             // Bestandsnaam en pad waar de JSON naar toe geschreven moet worden
-            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data3.json";
+            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json";
 
             // Te schrijven data
             var newData = new
@@ -99,7 +99,7 @@ namespace Project_OOP
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data3.json"; //Waar het JSON bestant moet staan
+            //string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json"; //Waar het JSON bestant moet staan
 
             //try
             //{

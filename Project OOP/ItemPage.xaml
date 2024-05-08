@@ -5,10 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project_OOP"
         mc:Ignorable="d"
+        Loaded="Window_Loaded"
         ResizeMode="NoResize"
         Title="ItemPage" SizeToContent="WidthAndHeight" Width="250">
+    <Window.Resources>
+        <!-- Converter voor het instellen van de tekstkleur op basis van de resterende dagen -->
+        <local:DaysRemainingColorConverter x:Key="DaysRemainingColorConverter"/>
+    </Window.Resources>
     <StackPanel>
-        <ListBox x:Name="ListBoxData" Grid.Row="2" SelectionChanged="ListBoxData_SelectionChanged" SelectionMode="Single"/>
-        <Button Content="Laad de items in" Name="LoadJson" Grid.Row="3" Click="LoadJson_Click" Margin="0,10,0,0"/>
+
+        <ListBox Name="ListBoxData" FontSize="25" SelectionChanged="ListBoxData_SelectionChanged" Margin="5">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Background" Value="{Binding Date, Converter={StaticResource DaysRemainingColorConverter}}"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <!-- ListBox-items hier -->
+            <ListBox.ItemTemplate>
+                <!-- DataTemplate voor het opmaken van elk item in de ListBox -->
+                <DataTemplate>
+                    <!-- TextBlock voor het weergeven van de tekst van elk item -->
+                    <TextBlock Text="{Binding}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button Content="Laad de items in" Name="LoadJson" Click="LoadJson_Click" Margin="5"/>
     </StackPanel>
 </Window>
