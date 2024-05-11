@@ -32,9 +32,19 @@ namespace Project_OOP
             Close();
         }
 
-        private void LoadJson_Click(object sender, RoutedEventArgs e)
+        private void ListBoxData_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json"; // Pad naar JSON-bestand
+            SharedData.SelectedDataItem = (DataItem)ListBoxData.SelectedItem;
+
+            ItemAanpassen itemAanpassen = new ItemAanpassen();
+            itemAanpassen.ShowDialog();
+            DialogResult = true;
+            Close();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data5.json"; // Pad naar JSON-bestand
 
             try
             {
@@ -73,50 +83,6 @@ namespace Project_OOP
                         dataItems.Add(rootItem.NewData);
                     }
                 }
-
-                // Voeg de gegevens toe aan de ListBox
-                ListBoxData.ItemsSource = dataItems;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
-            }
-        }
-
-        private void ListBoxData_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            SharedData.SelectedDataItem = (DataItem)ListBoxData.SelectedItem;
-
-            ItemAanpassen itemAanpassen = new ItemAanpassen();
-            itemAanpassen.ShowDialog();
-            DialogResult = true;
-            Close();
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json"; // Pad naar JSON-bestand
-
-            try
-            {
-                if (!File.Exists(jsonFilePath))
-                {
-                    MessageBox.Show($"Het bestand {jsonFilePath} bestaat niet.");
-                    return;
-                }
-                string json = File.ReadAllText(jsonFilePath);
-
-                // Controleer of de JSON-gegevens een array zijn
-                if (!json.Trim().StartsWith("["))
-                {
-                    json = "[" + json + "]";
-                }
-
-                // Deserialiseer de JSON naar een lijst van DataItem objecten
-                List<DataItem> dataItems = JsonConvert.DeserializeObject<List<DataItem>>(json);
-
-                // Sla de items op in SharedData.DataItems
-                SharedData.DataItems = dataItems;
 
                 // Voeg de gegevens toe aan de ListBox
                 ListBoxData.ItemsSource = dataItems;

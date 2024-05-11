@@ -29,7 +29,5 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-
-        <Button Content="Laad de items in" Name="LoadJson" Click="LoadJson_Click" Margin="5"/>
     </StackPanel>
 </Window>

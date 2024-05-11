@@ -40,13 +40,20 @@ namespace Project_OOP
         private void btnCreateItem_Click(object sender, RoutedEventArgs e)
         {
             // Bestandsnaam en pad waar de JSON naar toe geschreven moet worden
-            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json";
+            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data5.json";
 
             // Te schrijven data
+            DateTime date;
+            if (!DateTime.TryParseExact(tbxDate.Text, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out date))
+            {
+                MessageBox.Show("Ongeldige datum. Voer de datum in het formaat dd/MM/yyyy in.");
+                return; // Stop hier als de datum ongeldig is
+            }
+
             var newData = new
             {
                 Name = tbxName.Text,
-                Date = tbxDate.Text
+                Date = date // Gebruik de gevalideerde datum
             };
 
             try
@@ -99,7 +106,7 @@ namespace Project_OOP
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json"; //Waar het JSON bestant moet staan
+            //string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data5.json"; //Waar het JSON bestant moet staan
 
             //try
             //{
