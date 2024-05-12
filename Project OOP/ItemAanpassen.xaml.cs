@@ -63,11 +63,39 @@ namespace Project_OOP
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            var Result = MessageBox.Show($"Bent u zeker dat u het item \"{SharedData.SelectedDataItem.Name}\" wilt verwijderen?", "Verwijderen", MessageBoxButton.YesNo, MessageBoxImage.Question);
-
-            if (Result == MessageBoxResult.Yes)
+            try
             {
-                MessageBox.Show("Het item is verwijderd");
+                // Controleer of er een item is geselecteerd
+                if (SharedData.SelectedDataItem == null)
+                {
+                    MessageBox.Show("Selecteer een item om te verwijderen.");
+                    return;
+                }
+
+                // Vraag de gebruiker om bevestiging
+                var result = MessageBox.Show($"Bent u zeker dat u het item \"{SharedData.SelectedDataItem.Name}\" wilt verwijderen?", "Verwijderen", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    // Verwijder het geselecteerde item uit de lijst met gegevens
+                    SharedData.DataItems.Remove(SharedData.SelectedDataItem);
+
+                    // Werk het JSON-bestand bij
+                    string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json"; // Pad naar JSON-bestand
+                    File.WriteAllText(jsonFilePath, string.Empty); // Leeg het JSON-bestand
+
+                    // Sla de bijgewerkte lijst met gegevens op in het JSON-bestand
+                    string json = JsonConvert.SerializeObject(SharedData.DataItems, Newtonsoft.Json.Formatting.Indented);
+                    File.WriteAllText(jsonFilePath, json);
+
+                    MessageBox.Show("Item succesvol verwijderd en opgeslagen.");
+
+                    Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
             }
         }
 

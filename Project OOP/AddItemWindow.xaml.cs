@@ -39,81 +39,38 @@ namespace Project_OOP
 
         private void btnCreateItem_Click(object sender, RoutedEventArgs e)
         {
-            // Bestandsnaam en pad waar de JSON naar toe geschreven moet worden
-            string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json";
-
-            // Te schrijven data
-            var newData = new
-            {
-                Name = tbxName.Text,
-                Date = tbxDate.Text
-            };
-
             try
             {
-                // Controleren of het bestand bestaat
-                if (File.Exists(jsonFilePath))
+                // Maak een nieuw DataItem aan
+                DataItem newDataItem = new DataItem();
+                newDataItem.Name = tbxName.Text;
+                try
                 {
-                    // JSON-bestand lezen en bestaande gegevens ophalen
-                    var existingData = JsonConvert.DeserializeObject<dynamic>(File.ReadAllText(jsonFilePath));
-
-                    // Controleer of er al gegevens zijn
-                    if (existingData != null)
-                    {
-                        // Voeg de nieuwe data toe aan de bestaande data
-                        var mergedData = new
-                        {
-                            ExistingData = existingData,
-                            NewData = newData
-                        };
-
-                        if (tbxDate.Text != string.Empty && tbxName.Text != string.Empty)
-                        {
-                            // Serializeer de gecombineerde data naar JSON
-                            string json = JsonConvert.SerializeObject(mergedData, Newtonsoft.Json.Formatting.Indented);
-
-                            // Schrijf de JSON naar het bestand
-                            File.WriteAllText(jsonFilePath, json);
-                        }
-
-                        else
-                            MessageBox.Show("Geef een naam en een datum");
-
-                        MessageBox.Show("Gegevens geschreven");
-                    }
+                    newDataItem.Date = DateTime.Parse(tbxDate.Text);
                 }
-                else
+                catch (FormatException)
                 {
-                    // Als het bestand niet bestaat, schrijf de nieuwe data naar een nieuw bestand
-                    string json = JsonConvert.SerializeObject(newData, Newtonsoft.Json.Formatting.Indented);
-                    File.WriteAllText(jsonFilePath, json);
-
-                    MessageBox.Show("JSON-bestand aangemaakt met de nieuwe gegevens.");
+                    MessageBox.Show("Het formaat van de ingevoerde datum is ongeldig. Voer de datum in het juiste formaat in.");
+                    return; // Stop hier als de datum ongeldig is
                 }
+
+                // Voeg het nieuwe item toe aan de lijst met gegevens
+                SharedData.DataItems.Add(newDataItem);
+
+                // Leeg het JSON-bestand
+                string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json"; // Pad naar JSON-bestand
+                File.WriteAllText(jsonFilePath, string.Empty);
+
+                // Sla de volledige lijst van items op in het JSON-bestand
+                string json = JsonConvert.SerializeObject(SharedData.DataItems, Newtonsoft.Json.Formatting.Indented);
+                File.WriteAllText(jsonFilePath, json);
+
+                MessageBox.Show("Item succesvol toegevoegd en opgeslagen.");
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
             }
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            //string jsonFilePath = @"C:\Users\timde\OneDrive\Bureaublad\data4.json"; //Waar het JSON bestant moet staan
-
-            //try
-            //{
-            //    string json = File.ReadAllText(jsonFilePath);
-            //    DataItem dataItem = JsonConvert.DeserializeObject<DataItem>(json); //deserialiseren  van JSON bestand
-
-            //    // Toon de gegevens in de UI
-            //    _Date = $"Datum: {dataItem.Date}";
-            //    _Name = $"Naam: {dataItem.Name}";
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show($"Er is een fout opgetreden: {ex.Message}");
-            //}
         }
     }
 }

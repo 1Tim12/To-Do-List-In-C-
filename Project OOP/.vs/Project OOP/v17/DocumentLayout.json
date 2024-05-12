@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\itemaanpassen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:itemaanpassen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\itemaanpassen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:itemaanpassen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\dataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:dataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\itempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:itempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\daysremainingcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:daysremainingcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\itempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:itempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\shareddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:shareddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\additemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:additemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\existingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:existingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\itemaanpassen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:itemaanpassen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\additemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:additemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\dataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:dataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\additemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:additemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\existingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:existingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\itempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:itempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\daysremainingcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:daysremainingcolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\itemaanpassen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:itemaanpassen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CD32BF3-403C-4E5F-8CC9-9604A9600EB8}|Project OOP.csproj|c:\\users\\timde\\onedrive\\documenten\\to-do-list-in-c-\\project oop\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +74,119 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DaysRemainingColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DaysRemainingColorConverter.cs",
+              "RelativeDocumentMoniker": "DaysRemainingColorConverter.cs",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DaysRemainingColorConverter.cs",
+              "RelativeToolTip": "DaysRemainingColorConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T14:24:09.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddItemWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AddItemWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml.cs",
+              "RelativeToolTip": "AddItemWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:39:38.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddItemWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml",
+              "RelativeDocumentMoniker": "AddItemWindow.xaml",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml",
+              "RelativeToolTip": "AddItemWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T19:27:41.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DataItem.cs",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DataItem.cs",
+              "RelativeDocumentMoniker": "DataItem.cs",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DataItem.cs",
+              "RelativeToolTip": "DataItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:54:02.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T18:13:05.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:13:03.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml.cs",
+              "RelativeDocumentMoniker": "ItemPage.xaml.cs",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml.cs",
+              "RelativeToolTip": "ItemPage.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAD4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T19:40:00.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemPage.xaml",
+              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml",
+              "RelativeDocumentMoniker": "ItemPage.xaml",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml",
+              "RelativeToolTip": "ItemPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T19:37:35.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ItemAanpassen.xaml.cs",
               "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemAanpassen.xaml.cs",
               "RelativeDocumentMoniker": "ItemAanpassen.xaml.cs",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemAanpassen.xaml.cs*",
-              "RelativeToolTip": "ItemAanpassen.xaml.cs*",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowEEAAADBAAAA",
+              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemAanpassen.xaml.cs",
+              "RelativeToolTip": "ItemAanpassen.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAQwFwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T14:24:08.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SharedData.cs",
               "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\SharedData.cs",
               "RelativeDocumentMoniker": "SharedData.cs",
@@ -101,114 +200,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DaysRemainingColorConverter.cs",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DaysRemainingColorConverter.cs",
-              "RelativeDocumentMoniker": "DaysRemainingColorConverter.cs",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DaysRemainingColorConverter.cs",
-              "RelativeToolTip": "DaysRemainingColorConverter.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T14:24:09.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddItemWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AddItemWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml.cs",
-              "RelativeToolTip": "AddItemWindow.xaml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA1wCQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:39:38.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddItemWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml",
-              "RelativeDocumentMoniker": "AddItemWindow.xaml",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\AddItemWindow.xaml",
-              "RelativeToolTip": "AddItemWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T19:27:41.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DataItem.cs",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DataItem.cs",
-              "RelativeDocumentMoniker": "DataItem.cs",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\DataItem.cs",
-              "RelativeToolTip": "DataItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T08:54:02.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T18:13:05.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:13:03.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml.cs",
-              "RelativeDocumentMoniker": "ItemPage.xaml.cs",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml.cs",
-              "RelativeToolTip": "ItemPage.xaml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAIwG4AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:40:00.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemPage.xaml",
-              "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml",
-              "RelativeDocumentMoniker": "ItemPage.xaml",
-              "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemPage.xaml",
-              "RelativeToolTip": "ItemPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-18T19:37:35.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ExistingData.cs",
               "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ExistingData.cs",
               "RelativeDocumentMoniker": "ExistingData.cs",
               "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ExistingData.cs",
               "RelativeToolTip": "ExistingData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T20:17:11.627Z"
+              "WhenOpened": "2024-04-26T20:17:11.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -224,15 +224,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "ItemAanpassen.xaml",
               "DocumentMoniker": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemAanpassen.xaml",
               "RelativeDocumentMoniker": "ItemAanpassen.xaml",
               "ToolTip": "C:\\Users\\timde\\OneDrive\\Documenten\\To-Do-list-in-C-\\Project OOP\\ItemAanpassen.xaml",
               "RelativeToolTip": "ItemAanpassen.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-29T14:22:23.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T14:22:23.576Z"
             }
           ]
         }

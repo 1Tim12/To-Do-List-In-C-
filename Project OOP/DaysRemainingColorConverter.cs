@@ -14,18 +14,17 @@ namespace Project_OOP
                 // Bereken het aantal resterende dagen
                 int daysRemaining = (date - DateTime.Today).Days;
 
-                // Geef oranje kleur terug als minder dan 5 dagen over zijn, anders witte achtergrond
+                if (daysRemaining < 3)
+                {
+                    return new SolidColorBrush(Colors.Red);
+                }
+
                 if (daysRemaining < 5)
                 {
                     return new SolidColorBrush(Colors.Orange);
                 }
-
-                else if (daysRemaining < 3)
-                {
-                    return new SolidColorBrush(Colors.Red);
-                }
             }
-            return Brushes.White; // Standaardtekstkleur, als er meer dan 5 dagen over zijn
+            return Brushes.White; // Standaardtekstkleur
         }
 
 
