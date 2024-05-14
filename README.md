@@ -45,7 +45,9 @@ Dit deel van de code was een grote opgave aangzien je een class moet koppelen in
 
 Als je een item uit de listbox hebt geselecteerd krijg je een nieuwe WPF te zien, deze geeft je de mogelijkheid om de naam en of de datum aan te passen.
 Ook kan je hier het item verwijderen geen paniek als je hebt misklikt je krijgt eerst een MessageBox te zien en het item wordt pas verwijderd na de druk op "Ja".
-# Op gelet eens het item is verwijderd is dit permanent!
+
+![Opgelet](https://i.imgur.com/p6XRxhx.png) 
+# Opgelet eens het item is verwijderd is dit permanent!
 Wijzegingen aan de naam en of datum worden pas opgeslaan na de druk op "Opslaan".
 
 ### Gegevens schrijven naar json
